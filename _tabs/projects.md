@@ -14,8 +14,10 @@ order: 4
 | --- | --- | --- | --- |
 | 範例專案 | 一句話說明這個專案在做什麼 | Python, FastAPI | [介紹文]({% post_url 2026-09-17-portfolio-template %}) |
 
+{% raw %}
 <!--
-新增作品時，複製上面表格的一列，改成你的內容即可：
+新增作品時，複製上面表格的一列，改成你的內容即可（連結用文章的 permalink，格式是 /posts/英文-slug/）：
 
-| 作品名稱 | 一句話說明 | 用到的技術 | [介紹文]({% post_url YYYY-MM-DD-slug %}) ・ [原始碼](https://github.com/...) ・ [Demo](https://...) |
+| 作品名稱 | 一句話說明 | 用到的技術 | [介紹文](/posts/your-slug/) ・ [原始碼](https://github.com/...) ・ [Demo](https://...) |
 -->
+{% endraw %}
